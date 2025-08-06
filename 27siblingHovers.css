@@ -1,0 +1,35 @@
+.parent{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+}
+.child1{
+  width:60%;
+  /* height: 20%; */
+  border: 1px solid black;
+  text-align: center;
+}
+.child2{
+ 
+  width:60%;
+  border: 1px solid black;
+  text-align: center;
+  margin:4px 30px;
+   /* display: none; */
+   border-radius: 3%;
+}
+.submenu{
+  width: 100%;
+  /* border: 1px solid black; */
+  padding:1px;
+}
+.parent:hover .child2{
+  display:block;
+}
+.submenu:hover{
+  background-color: rgb(113, 95, 95);
+  color: white;
+}

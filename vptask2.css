@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.world{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card{
+    width: 400px;
+     height: 254px;
+    background:rgb(217, 202, 202);
+    border: 2px solid rgb(0, 0, 0);
+    position: relative;
+}
+.chip{
+    width: 54px;
+    height: 35px;
+    top: 190px;
+    left: 20px;
+    border-radius: 3px;
+    background-image: url(./chips.jpg);
+    background-size:cover;
+    background-position:center;
+    position: absolute;
+}
+.cn{
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin: 23px 0px;
+}
+.ch{
+    font-size: 15px;
+    margin-bottom: 9px;
+}
+.v{
+      font-size: 12px;
+      margin-bottom: 10px;
+}
+.debit {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 14px;
+}
+.l{
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    position: absolute;
+    right: 40px;
+    bottom: 43px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+}
+.c{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+.r{
+    background: rgb(235, 0, 27);
+    z-index: 1;
+    position:absolute;
+    bottom:0px;
+    left:-16px;
+}
+.y{
+     background: rgb(247, 158, 27);
+     margin-left: -10px;
+     position:absolute;
+     bottom:0px;
+     left:-16px;
+}
+.lt{
+    font-size: 14px;
+    color: white;
+    margin-left: 5px;
+    position:absolute;  
+    top:5px;
+    border:2px solid black;
+}

@@ -1,0 +1,242 @@
+.road{
+  width:100%;
+  height: 200px;
+  border:1px solid rgb(77, 77, 77);
+  background-color: rgb(77, 77, 77);
+  position: fixed;
+  bottom:0;
+}
+.white1{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:20px;
+  top:40%;
+}
+.white2{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:250px;
+  top:40%;
+}
+ 
+.white3{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:500px;
+  top:40%;
+}
+
+.white4{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:750px;
+  top:40%;
+}
+
+.white5{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:1000px;
+  top:40%;
+} 
+.white6{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:1250px;
+  top:40%;
+} 
+.white7{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:1500px;
+  top:40%;
+}
+.car{
+  width:350px;
+  height: 100px;
+  position:absolute;
+  left: 60%;
+  top:20%; 
+}
+.leftWheel{
+  width:50px;
+  height: 50px;
+  border: 10px solid rgb(0, 0, 0);
+  background-color: yellow;
+  border-radius: 100%;
+  position:absolute;
+  left: 20%;
+  top:20%; 
+  z-index: 10;
+}
+.rightWheel{
+   width:50px;
+  height: 50px;
+  border: 10px solid rgb(0, 0, 0);
+  background-color: yellow;
+  border-radius: 100%;
+ position:relative;
+  left: 65%;
+   top:20%;
+   z-index: 10;
+ 
+}
+.carBody{
+  width:318px;
+  height: 100px;
+  border: 3px solid rgb(10, 10, 0);
+  background-color: yellow;
+  position: relative;
+  left:7%;
+  top:-135%;
+  border-radius: 170px 70px  0 10px ; 
+}
+.carTopLeft{
+  width:65px;
+  height:52px;
+  border: 2px solid #080800;
+  background-color: yellow;
+   position:relative;
+   border-top-left-radius: 30%; 
+  
+  left:40%;
+  top:-288%
+  
+}
+.carTopRight{
+  width:65px;
+  height: 52px;
+  border: 2px solid rgb(9, 9, 0);
+  background-color: yellow;
+  position:relative;
+  border-top-right-radius: 30%; 
+  
+  left:59%;
+  top:-342.5%
+ 
+}
+.tree1{
+  width: 250px;
+  height: 500px;
+  border: 1px solid rgb(0, 0, 0);
+   position: fixed;
+   left:100px;
+  bottom:200px;
+}
+.tree2{
+  width: 500px;
+  height: 500px;
+  /* border: 1px solid rgb(42, 155, 165); */
+   position: fixed;
+   left:400px;
+  bottom:200px;
+}
+.treeBark{
+  width: 50px;
+  height: 200px;
+  border: 1px solid brown;
+  background-color: brown;
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+  
+}
+.leaves{
+  width: 50%;
+  height: 50%;
+  border: 1px solid brown;
+  position: absolute;
+  bottom: 0px;
+  left:8px;
+}
+.leftTree1{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  left: -2%;
+}
+.leftTree2{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  top:3px;
+  left:41px;
+}
+.leftTree3{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  top:-25%;
+  left:9px;
+}
+.leftTree4{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  top:-37%;
+  left:43px;
+}
+
+.leftTree5{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  top:-25%;
+  left:82px;
+}
+.leftTree6{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  left: 100px;
+
+}
+.sun{
+  width: 100px;
+  height: 100px;
+  border: 10px solid rgb(234, 83, 18);
+  background-color: rgb(255, 89, 0);
+  position: fixed;
+  top:20px;
+  right: 120px;
+  border-radius: 100%;
+}

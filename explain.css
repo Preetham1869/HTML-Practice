@@ -1,0 +1,47 @@
+.div1{
+  width:100px;
+  height: 100px;
+  border:2px solid red;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius:50px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+
+  border-radius: 100% ;
+}
+/* .child{
+  width: 50%;
+  height:30%;
+  border:3px solid green;
+} */
+
+.bg{
+  width:200px;
+  height:200px;
+  border: 2px solid brown;
+  /* background-color: blanchedalmond; */
+  background-image: url(./water.jpg);
+  background-repeat: no-repeat;
+  background-size :50% 50%;
+  /* background-size: cover;
+    background-size: contain; */
+    background-position:top right;
+
+
+
+}
+.div2{
+  width: 300px;
+    height: 300px;
+    border: 3px solid blueviolet;
+    font-size: 12px;
+    color: coral;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px; 
+}

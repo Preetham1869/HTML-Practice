@@ -1,0 +1,100 @@
+:root {
+  --color-1: #EABDE6;  /* Light Lavender */
+  --color-2: #C68EFD;  /* Soft Purple */
+  --color-3: #9B7EBD;  /* Dusty Violet */
+  --color-4: #7F55B1;  /* Deep Violet */
+  --color-5: #7C4585;  /* Plum */
+
+  --text-light: #fff;
+  --text-muted: #eae0f5;
+  --bg-light: #fdf7fc;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg-light);
+  color: var(--color-5);
+}
+
+/* Header */
+header.container {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, var(--color-1), var(--color-2));
+  color: var(--color-5);
+  box-shadow: 0 4px 12px rgba(124, 69, 133, 0.1);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-muted {
+  color: var(--color-3);
+  font-size: 1.1rem;
+}
+
+/* Product Section */
+main.container {
+  padding: 2rem 1rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Card Styling */
+.card {
+  background-color: var(--color-1);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(124, 69, 133, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(124, 69, 133, 0.2);
+}
+
+.product-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border: 3px solid var(--color-4);
+}
+
+/* Typography */
+.card h3 {
+  font-size: 1.3rem;
+  color: var(--color-5);
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin: 0.25rem 0;
+}
+
+/* Button */
+.btn-primary {
+  background-color: var(--color-4);
+  color: var(--text-light);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-5);
+}

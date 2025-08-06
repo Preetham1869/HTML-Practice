@@ -1,0 +1,50 @@
+header{
+  width:100%;
+  height:20%;
+  border:1px solid black;
+  background-color: rgb(252, 192, 192);
+  position: relative;
+  top:50%;
+}
+
+.icons{
+  width:70%;
+  display: flex;
+  gap:40px;
+  position: absolute;
+  left: 16%;
+  top:60%;
+  font-family: cursive;
+  font-size:25px ;
+  font-weight: 10px;
+}
+.icon{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: relative;
+}
+.iconName{
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 4px;
+}
+.iconOpt{
+  display: none;
+  position: absolute;
+  left:10%;
+  top:100%;
+}
+.option{
+  width:100%;
+  padding: 1px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.option:hover{
+  color:white;
+  background-color: brown;
+}
+.icon:hover .iconOpt{
+  display: block;
+}

@@ -1,0 +1,29 @@
+.first{
+  width:250px;
+  height:300px;
+  background-color: rgb(172, 224, 255);
+  border: 5px solid rgb(89, 194, 255);
+  position:absolute;
+  z-index: 10;
+}
+.second{
+  width:250px;
+  height:300px;
+  background-color: rgb(244, 87, 87);
+  border: 5px solid red;
+  position:absolute;
+  left:60px;
+  top:60px;
+  z-index:1;
+}
+.third{
+  width:250px;
+  height:300px;
+  background-color: rgb(208, 165, 246);
+  border: 5px solid rgba(136, 0, 255, 1);
+  position:absolute;
+  left:120px;
+  top:120px;
+  z-index: 100;
+
+}

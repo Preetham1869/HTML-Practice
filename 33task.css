@@ -1,0 +1,343 @@
+body{
+  /* background-image: linear-gradient(to bottom,rgb(90, 190, 241),rgb(142, 204, 235),rgb(221, 235, 242),white); */
+       background-image: linear-gradient(to bottom,#f87524,rgb(210, 210, 210));
+
+  animation: bodyAnimation 6s linear 4s 1 alternate;
+}
+
+@keyframes bodyAnimation {
+  0%{
+     background-image: linear-gradient(to bottom,#16bbede4,rgb(210, 210, 210),white);
+  }
+  
+  100%{
+    background-image: linear-gradient(to bottom,black,black,black,black);
+  }
+}
+
+.sun{
+  width: 100px;
+  height: 100px;
+  border: 10px solid rgb(234, 83, 18);
+    background-color: rgb(255, 89, 0);
+    box-shadow: 0 0 25px rgb(223, 42, 2),0 0 10px rgb(223,2,2),0 0 20px rgb(223,2,2);
+  
+  position: fixed;
+  top:20px;
+  right: 120px;
+  border-radius: 100%;
+  animation: sunAnimation 3s linear 1s 1 alternate;
+}
+@keyframes sunAnimation {
+  0%{
+    border: 5px solid rgb(234, 83, 18);
+    background-color: rgb(255, 89, 0);
+    box-shadow: 0 0 25px rgb(223, 42, 2),0 0 10px rgb(223,2,2),0 0 20px rgb(223,2,2);
+  }
+  
+  85%{
+    top:200px;
+    border: 1px solid rgb(252, 189, 161);
+    background-color: rgb(252, 189, 161);
+    box-shadow: 0 0 25px rgb(255, 156, 134),0 0 10px rgb(253, 108, 108),0 0 20px rgb(255, 252, 252);
+    
+  }
+  100%{
+    display: none;
+  }
+}
+.moon{
+  width: 100px;
+  height: 100px;
+  border: 10px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgb(98, 81, 77),0 0 10px rgb(93, 76, 76),0 0 20px rgb(223,2,2);
+  /* display: none; */
+  position: fixed;
+  top:200px;
+  right: 120px;
+  border-radius: 100%;
+  animation: moonAnimation 3s linear 6s infinite ;
+}
+
+@keyframes moonAnimation {
+  0%{
+    display: block;
+    border: 5px solid rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgb(102, 84, 80),0 0 10px rgb(125, 101, 101),0 0 20px rgb(117, 93, 93);
+  }
+ 20% {
+    display:block;
+  }
+  85%{
+    display: block;
+    top:20px;
+    border: 5px solid rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgb(102, 84, 80),0 0 10px rgb(125, 101, 101),0 0 20px rgb(117, 93, 93);
+  
+  }
+  100%{
+     display:block;
+    top:20px;
+    border: 5px solid rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgb(102, 84, 80),0 0 10px rgb(125, 101, 101),0 0 20px rgb(117, 93, 93);
+  
+  }
+}
+.road{
+  width:100%;
+  height: 200px;
+  border:1px solid rgb(77, 77, 77);
+  background-color: rgb(77, 77, 77);
+  position: fixed;
+  bottom:0;
+}
+.white1{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:20px;
+  top:40%;
+}
+.white2{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:250px;
+  top:40%;
+}
+ 
+.white3{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:500px;
+  top:40%;
+}
+
+.white4{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:750px;
+  top:40%;
+}
+
+.white5{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:1000px;
+  top:40%;
+} 
+.white6{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:1250px;
+  top:40%;
+} 
+.white7{
+  width:160px;
+  height: 37px;
+  border:1px solid rgb(255, 255, 255);
+  background-color: white;
+  position:absolute;
+  left:1500px;
+  top:40%;
+}
+.car{
+  
+  width:350px;
+  height: 100px;
+  position:absolute;
+  right:0%;
+  top:20%; 
+  z-index: 1000;
+  animation: carAnimate 8s ease-in-out 1s infinite alternate;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes carAnimate {
+  0%{
+    position:absolute;
+    right: 0%;
+    top:20%;
+    z-index: 1000;
+  }
+  100%{
+    position:absolute;
+    right: 80%;
+    top:20%;
+    z-index: 1000;
+  }
+}
+.leftWheel{
+  width:50px;
+  height: 50px;
+  border: 10px solid rgb(0, 0, 0);
+  background-color: yellow;
+  border-radius: 100%;
+  position:absolute;
+  left: 20%;
+  top:20%; 
+  z-index: 10;
+}
+.rightWheel{
+   width:50px;
+  height: 50px;
+  border: 10px solid rgb(0, 0, 0);
+  background-color: yellow;
+  border-radius: 100%;
+ position:relative;
+  left: 65%;
+   top:20%;
+   z-index: 10;
+ 
+}
+.carBody{
+  width:318px;
+  height: 110px;
+  border: 3px solid rgb(10, 10, 0);
+  background-color: yellow;
+  position: relative;
+  left:7%;
+  top:-135%;
+  border-radius: 70px 70px  0 10px ; 
+  z-index: 100;
+}
+.carTopLeft{
+  width:65px;
+  height:52px;
+  border: 2px solid #080800;
+  background-color: yellow;
+   position:relative;
+   border-top-left-radius: 30%; 
+  
+  left:40%;
+  top:-288%;
+  z-index: 100;
+}
+.carTopRight{
+  width:65px;
+  height: 52px;
+  border: 2px solid rgb(9, 9, 0);
+  background-color: yellow;
+  position:relative;
+  border-top-right-radius: 30%; 
+  
+  left:59%;
+  top:-342.5%;
+  z-index: 100;
+}
+.tree1{
+  width: 250px;
+  height: 500px;
+  /* border: 1px solid rgb(0, 0, 0); */
+   position: fixed;
+   left:100px;
+  bottom:200px;
+  z-index: 2;
+}
+.tree2{
+  width: 500px;
+  height: 500px;
+  /* border: 1px solid rgb(42, 155, 165); */
+   position: fixed;
+   left:400px;
+  bottom:200px;
+  z-index: 2;
+}
+.treeBark{
+  width: 50px;
+  height: 200px;
+  /* border: 1px solid brown; */
+  background-color: brown;
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+  z-index: 1;
+}
+.leaves{
+  width: 50%;
+  height: 50%;
+  /* border: 1px solid brown; */
+  position: absolute;
+  bottom: 0px;
+  left:8px;
+  z-index: 2;
+}
+.leftTree1{
+  width: 80px;
+  height: 80px;
+  /* border: 5px solid green; */
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  left: -2%;
+}
+.leftTree2{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  top:3px;
+  left:41px;
+}
+.leftTree3{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  top:-25%;
+  left:9px;
+}
+.leftTree4{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  top:-37%;
+  left:43px;
+}
+
+.leftTree5{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  top:-25%;
+  left:82px;
+}
+.leftTree6{
+  width: 80px;
+  height: 80px;
+  border: 5px solid green;
+  background-color: green;
+  position: absolute;
+  border-radius: 100%;
+  left: 100px;
+
+}

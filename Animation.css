@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+}
+.Scene {
+    width: 100vw;
+    height: 100svh;
+    position: relative;
+    background: linear-gradient(rgb(255, 160, 122), rgb(137, 207, 235));
+    animation: bg 25s linear infinite;
+}
+@keyframes bg{
+    0% {
+        background: linear-gradient(rgb(255, 218, 185), rgb(135, 206, 235));
+    }
+    25% {
+        background: linear-gradient(rgb(135, 206, 235), rgb(158, 215, 223));
+    }
+    50% {
+        background: linear-gradient(rgb(68, 167, 209), rgb(223, 133, 49));
+    }
+    75% {
+        background: linear-gradient(rgb(23, 23, 68), #000);
+    }
+    100% {
+        background: linear-gradient(rgb(255, 218, 185), rgb(135, 206, 235));
+    }
+}
+.sm {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    background: yellow;
+    border-radius: 50%;
+    animation: smColorChange 22s linear infinite;
+}
+
+@keyframes smColorChange {
+    0% {
+        background: yellow;
+        box-shadow:0 0 30px 10px yellow;
+    }
+    25% {
+        background:rgb(207, 207, 31);
+        box-shadow:0 0 30px 10px rgb(207, 207, 31);
+    }
+    50% {
+        background: orange;
+        box-shadow: 0 0 30px 10px orange;
+    }
+    75% {
+        background:whitesmoke;
+        box-shadow: 0 0 30px 10px whitesmoke;
+    }
+    100% {
+        background:white;
+        box-shadow: 0 0 30px 10px white;
+    }
+}
+.tree{
+    position: absolute;
+    bottom: 154px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tree .leaves {
+  width: 60px;
+  height: 60px;
+  background: green;
+  border-radius: 50%;
+  margin-bottom: -2px;
+}
+.tree .bark{
+   width:20px;
+   height: 60px;
+   background: rgb(160, 82, 45);
+   border-radius: 1px;
+}
+.t1{
+    /* position: absolute; */
+    left: 100px;
+}
+.t2{
+    /* position:absolute; */
+    left: 300px;
+}
+.car {
+  position: absolute;
+  bottom:9px;
+  width: 120px;
+  z-index:2;
+  animation: drive 22s linear infinite;
+}
+@keyframes drive {
+  0% { left: 100vw; }
+  100% { left: -150px; }
+}
+.road {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 155px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+}
+.lane {
+  width: 54px;
+  height: 23px;
+  background-color: white;
+}
+
+

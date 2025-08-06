@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.parent{
+    width: 500px;
+    height: 500px;
+    transform-style: preserve-3d;
+    perspective: 100px;
+    /* transform-origin:center left;
+    perspective-origin:bottom; */
+    border :1px solid aqua;
+
+}
+.c1{
+    width: 154px;
+    height: 154px;
+    background-color: whitesmoke;
+    color: red;
+    text-align: justify;
+    padding: 10px;
+    transform: rotate(20deg);
+    animation: animate;
+    transform-origin:50px 50px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    /* backface-visibility: hidden; */
+}
+@keyframes animate {
+    0%{
+        transform:rotateX(0deg)
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}

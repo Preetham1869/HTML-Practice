@@ -1,0 +1,152 @@
+body{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background-color: aliceblue;
+  /* position: relative; */
+  font-family:'Poppins', sans-serif;
+  
+}
+header{
+  height: auto;
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  position: fixed;
+  top:0px;
+  padding: 20px 0px;
+  /* gap:30px; */
+  
+}
+.logo{
+ /* position: relative; */
+ 
+ cursor: pointer;
+}
+
+
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  /* flex-wrap: wrap; */
+  gap:28px;
+  position: relative;
+  right:50%;
+  
+}
+
+.icon{
+  /* display: inline; */
+  color: rgb(46, 45, 45);
+  font-weight:550px;
+  padding: 10px;
+  font-family:'Poppins', sans-serif;
+ 
+  font-weight:700;
+  cursor: pointer;
+  position: relative;
+  text-align: left;
+  border: none;
+  /* background-color: transparent; */
+  font-size: 15px;
+  display: inline;
+}
+
+.login{
+  padding: 16px 28px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight:700;
+  border-radius: 5px;
+
+  margin-right: 2%;
+
+
+  cursor: pointer;
+  /* position: relative;
+  left: 40%; */
+}
+
+.menu-bar{
+  display: none;
+  /* padding:17px 19px;
+  border: 0px solid green;
+  background-color: green;
+  color: white;
+  border-radius: 10%; */
+}
+
+@media(max-width:768px){
+  .icons{
+    display: none;
+  }
+  .login{
+    
+    /* margin-left: 48%; */
+
+    position: relative;
+    left: 12%;
+    /* margin-left:40%; */
+    margin-right: 15px;
+  }
+  .menu-bar{
+     padding:17px 19px;
+  border: 0px solid green;
+  background-color: green;
+  color: white;
+  border-radius: 10%;
+
+    display: block;
+    margin-left: 4%;
+    margin-right: 4%;
+    cursor: pointer;
+  }
+  .menu-items{
+    width: auto;
+    height: auto;
+    position: absolute;
+    /* left:0%; */
+    top:80%;
+    right:5%;
+    background-color: rgb(241, 240, 240);
+    color: green;
+    border-radius: 5%;
+    
+    display:none;
+    
+  }
+  .menu-icon:hover{
+    background-color: green;
+    color: white;
+    
+    
+  }
+  .menu-icons{
+    list-style:none;
+  }
+  .menu-icon{
+    border-radius: 10%;
+    padding:9px 9px;
+  }
+  .menu-bar:hover .menu-items{
+    display:block;
+  }
+
+
+
+}
+.left-menu-section{
+  width:50%;
+  height:100%;
+  background-color: white;
+  position: absolute;
+}

@@ -1,0 +1,19 @@
+.box{
+  width:600px;
+  height: 600px;
+  border: 1px solid black;
+
+}
+.card{
+  width:370px;
+  height:410px;
+  border:2px solid black;
+  position:relative;
+  display: flex;
+}
+.img{
+  width:40px;
+  height:40px;
+  border: 1px solid black;
+  pos
+}

@@ -1,0 +1,74 @@
+.parent{
+    width: 100%;
+    height: 700px;
+    border: 3px solid rgb(237, 76, 76);
+    color: rgb(255, 255, 255);
+    font-size:54px;
+    /* align-items: center; */
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: repeat(3,1fr) ;
+
+
+}
+.parent1{
+    width: 100%;
+    height: 700px;
+    border: 3px solid rgb(147, 93, 93);
+    color: rgb(223, 72, 72);
+    font-size:54px;
+    /* align-items: center; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 2fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr) ; */
+}
+.child1{
+    border: 2px solid black;
+    background-color: rgb(225, 255, 0);
+}
+.child{
+    border: 2px solid black;
+    background-color: aqua;
+}
+.c1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(108, 26, 26);
+    justify-self:start;
+}
+.c2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 27, 108);
+    justify-self:center;
+}
+.c3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 108, 38);
+    align-self:center;
+    justify-self:end;
+}
+.c4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(108, 26, 82);
+    justify-self:end;
+}
+.c5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(96, 108, 26);
+    justify-self:center;
+}
+.c6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 108, 93);
+    justify-self:start;
+}
+

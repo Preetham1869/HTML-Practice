@@ -1,0 +1,34 @@
+.text1{
+  color:#bc0505fe;
+  text-align: justify;
+}
+.text2{
+  color:#bc0505fe;
+  text-align: justify;
+}
+.text3{
+  color:#bc0505fe;
+  text-align-last: left;
+}
+
+.text3{
+  color:#bc0505fe;
+  text-align: right;
+}
+
+.text5{
+  /* direction:rtl; */
+  /* text-decoration:dashed ; */
+  color: blueviolet;
+  /* text-decoration: dotted; */
+  text-transform: capitalize;
+  /* text-decoration-line: underline; */
+  text-decoration-thickness: 1px;
+  text-overflow:ellipsis;
+  /* text-decoration-line: line-through; */
+  text-decoration-line:underline;
+  text-decoration-color: rgb(245, 6, 6);
+  text-decoration-style:double;
+  text-shadow:7px;
+  text-indent: 5px; 
+}

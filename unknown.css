@@ -1,0 +1,589 @@
+ /* color: #d3d3d3; /* similar light gray */
+      /* background-color: #3e0066; purple background
+      padding: 10px;
+      display: inline-block; */
+      /* .all {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: 110px;
+    height: 110px;
+} */
+/* .all div{
+    width: 50px;
+    height:50px;
+    margin: 5px;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+} */
+ /* <div class="it">
+        <div class="info">
+            <div class="leftside">
+                <h2><span>IT</span> solutions</h2>
+                <p>We collaborate with you to create new value through digital transformation. We have hundreds of specialists at your service.</p>
+                <div class="btn"><center>L E A R N&nbsp;M O R E</center></div>
+            </div>
+            <div class="rightside">
+                <img src="../Assests/trail-3.jpg" alt="">
+            </div>
+        </div>
+    </div> */
+    /* .it{
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-left: 300px;
+}
+.leftside{
+    max-width: 500px;
+}
+.leftside h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: rgb(0, 181, 244);
+}
+/* .leftside h2 span{
+    color: rgb(0, 181, 244);
+} */
+/* .leftside p{
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 20px;
+}
+a{
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+} */
+/* a:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+/* .rightside{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.rightside img{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    padding-right:180px;
+}
+.leftside div{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(72, 179, 236);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    padding: 0 15px;
+} */
+ /* <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Style Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="products">
+      <div class="section">
+        <h2>Hair & Skin Care for Monsoon</h2>
+        <div class="grid">
+          <div class="card">
+            <img src="https://via.placeholder.com/100x140" alt="Face Wash">
+            <p>Face Wash</p>
+            <span class="green">Min. 50% Off</span>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/100x140" alt="Hair Serum">
+            <p>Hair Serum</p>
+            <span class="green">Min. 50% Off</span>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/100x140" alt="Hair Claw">
+            <p>Hair Claw</p>
+            <span class="blue">Top Sellers</span>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/100x140" alt="Bath Soap">
+            <p>Bath Soap</p>
+            <span class="green">Min. 50% Off</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Fashion's Top Deals</h2>
+        <div class="grid">
+          <div class="card">
+            <img src="https://via.placeholder.com/100x140" alt="Slippers">
+            <p>Men’s Slippers</p>
+            <span class="green">Min. 70% Off</span>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/100x140" alt="T-shirts">
+            <p>Men's T-shirts</p>
+            <span class="green">Min. 50% Off</span>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/100x140" alt="Shirts">
+            <p>Casual Shirts</p>
+            <span class="blue">Special offer</span>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/100x140" alt="Sarees">
+            <p>Women’s Sarees</p>
+            <span class="blue">Special offer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <h3>Shop your<br><span>fashion Needs</span></h3>
+      <p>with Latest &<br>Trendy Choices</p>
+      <button>Shop Now</button>
+      <img src="https://via.placeholder.com/200x250" alt="Fashion Image">
+    </div>
+  </div>
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.products {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 100px;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #222;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.blue {
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+.banner {
+  flex: 1;
+  background: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.banner h3 {
+  font-size: 24px;
+  color: #2d2d2d;
+  margin-bottom: 10px;
+}
+
+.banner span {
+  color: #1e1e1e;
+  font-weight: bold;
+}
+
+.banner p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.banner button {
+  padding: 10px 20px;
+  background: #2d2d2d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.banner img {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+} */
+/* *{
+    color: rgb(85, 85, 85);
+} */
+
+
+
+
+ /* <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flipkart Replica</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-bar">
+      <img class="menu-icon" src="data:image/svg+xml;base64,...(your base64 icon)" />
+      <img class="logo" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="Flipkart" />
+      <input type="text" placeholder="Search for Products, Brands and More" />
+      <div class="actions">
+        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg" />
+        <span>Login</span>
+        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" />
+        <span>Cart</span>
+        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" />
+        <span>Become a Seller</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="products">
+      <div class="section">
+        <h2>Hair & Skin Care for Monsoon</h2>
+        <div class="grid">
+          <!-- Repeat below cards with respective images/text -->
+          <div class="card">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ2AZ39nusRxkRjKsU4h86Git9nJtzhDrYJsgBEm_SyWFKsBeieRdeyxbycQAlpYlhrqvc9P4E3NWrbYBm4Y4phR4UeFsYEvCnyXa3Ub6uP" />
+            <p>Face Wash</p>
+            <span class="green">Min. 50% Off</span>
+          </div>
+          <!-- Repeat for Hair Serum, Hair Claw, Bath Soap -->
+        </div>
+
+        <h2>Fashion's Top Deals</h2>
+        <div class="grid">
+          <!-- Repeat similar cards here -->
+        </div>
+      </div>
+    </section>
+
+    <aside class="promo">
+      <h3>Shop your<br><span>fashion Needs</span></h3>
+      <p>with Latest &<br>Trendy Choices</p>
+      <button>Shop Now</button>
+    </aside>
+  </main>
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(224, 219, 219);
+}
+   header {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.logo-bar input {
+  flex: 1;
+  max-width: 400px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.actions span {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+/* Container */
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Products Section */
+/* .section {
+  max-width: 900px;
+}
+
+.section h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+.promo {
+  background: rgb(240, 240, 240);
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 300px;
+}
+
+.promo h3 {
+  color: rgb(106, 103, 103);
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.promo span {
+  font-weight: bold;
+  color: rgb(105, 104, 104);
+}
+
+.promo p {
+  color: rgb(85, 85, 85);
+  margin-bottom: 15px;
+}
+
+.promo button {
+  background: rgb(106, 103, 103);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .promo {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .logo-bar {
+    justify-content: space-between;
+  }
+
+  .logo-bar input {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .actions {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+} */
+
+
+
+
+
+
+
+
+
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Front-end Developer Hero</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="hero">
+    <div class="content">
+      <h1>I’m Rayan Adlrdard <br><span class="highlight">Front-end</span> Developer</h1>
+      <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Et, Volutpat Feugiat Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.</p>
+      <button class="hire-btn">HIRE ME →</button>
+    </div>
+    <div class="image">
+      <img src="https://undraw.co/api/illustrations/undraw_programming_re_kg9v.svg" alt="Developer Illustration" />
+    </div>
+  </section>
+</body>
+</html> */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #fdbb01;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.hire-btn {
+  background-color: #fdbb01;
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hire-btn:hover {
+  background-color: #f5a600;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+ */

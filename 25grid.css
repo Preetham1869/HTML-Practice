@@ -1,0 +1,83 @@
+.parent{
+  width: 100%;
+  height: 700px;
+  border:2px solid black;
+  display: grid;
+  color: aliceblue;
+  background-color: 
+  rgb(255, 255, 255);
+  /* grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr; */
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 2fr 1fr ;
+  font-size :30px;
+}
+.child{
+  border:2px solid black;
+  display: grid;
+
+}
+.child1{
+  width:100px;
+  height:100px;
+  background-color: violet;
+  justify-self:end;
+  align-self: end;
+}
+.child2{
+  width:100px;
+  height:100px;
+  background-color: violet;
+   justify-self: center;
+  align-self: end;
+ 
+}
+.child3{
+  width:100px;
+  height:100px;
+  background-color: violet;
+  align-self:end;
+  justify-self: start;
+}
+.child4{
+  width:100px;
+  height:100px;
+  background-color: violet;
+  align-self:center;
+  justify-self: end;
+}
+.child5{
+  width:100px;
+  height:100px;
+  background-color: violet;
+  align-self:center;
+  justify-self: center;
+}
+.child6{
+  width:100px;
+  height:100px;
+  background-color: violet;
+  align-self:center;
+  justify-self: start;
+}
+.child7{
+  width:100px;
+  height:100px;
+  background-color: violet;
+  align-self:start;
+  justify-self:end ;
+}
+.child8{
+  width:100px;
+  height:100px;
+  background-color: violet;
+  align-self:start;
+  justify-self: center;
+}
+.child9{
+  width:100px;
+  height:100px;
+  background-color: violet;
+  align-self:start;
+  justify-self: start;
+}

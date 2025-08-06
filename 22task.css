@@ -1,0 +1,85 @@
+.visitingCard{
+  width:500px;
+  height:300px;
+  border:2px solid rgb(108, 101, 101);
+  position: relative;
+  font-family: cursive;
+  left:20%;
+  top:20%;
+  border-radius: 10%;
+  box-shadow:6px 6px rgb(108, 101, 101);
+  background-image: linear-gradient(to top left,rgb(219, 254, 159),white,rgb(219, 254, 159),white,rgb(219, 254, 159),white,rgb(219, 254, 159),white,rgb(219, 254, 159),white,rgb(219, 254, 159),white,rgb(219, 254, 159),white,rgb(219, 254, 159),white);
+}
+.heading{
+  width:300px;
+  height: 20px;
+  position: absolute;
+  left:25%;
+  font-family:cursive;
+  font-weight: bold;
+  font-size: 33px;
+  
+}
+.image{
+  width :130px;
+  height: 150px;
+  background-image: url(./23MH1A05L3.jpg);
+  position: absolute;
+  top:20%;
+  background-size: cover ;
+  border-radius: 30% 10% 30% 10%;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 3px 3px lightgreen;
+  left:5%;
+}
+.details{
+  width:300px;
+  height:150px;
+  /* border:1px solid black; */
+  position: absolute;
+  left:40%;
+  top:20%;
+  font-size: 18px;
+}
+.name{
+  font-size: 22px;
+  font-family: cursive;
+}
+.phone{
+  position: absolute;
+  top:30%;
+
+}
+.mail{
+  position: absolute;
+  top:57%;
+
+}
+.address{
+  position: absolute;
+  top:85%;
+}
+.socMedia{
+  margin:10px;
+  width:80%;
+  height:20%;
+  /* border: 1px solid black; */
+  position: absolute;
+  top:70%;
+  left:10%;
+  font-size: 18px;
+}
+.linkedIn{
+  position: absolute;
+left:10%;
+top:25%;
+
+}
+.github{
+  position: absolute;
+  top:25%;
+  left:50%;
+}
+.twitter{
+
+}

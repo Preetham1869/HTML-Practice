@@ -1,0 +1,38 @@
+body{
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.parent{
+  width:200px;
+  height: 200px;
+  border: 3px solid rgb(0, 0, 0);
+  /* background-color: blue; */
+  position: relative;
+  perspective: 2000px;
+}
+.box{
+  width:200px;
+  height: 200px;
+  position: absolute;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(143, 145, 143);
+  color: rgb(0, 0, 0);
+  display: flex;  
+  justify-content: center;
+  align-content: center;
+  transform-style: preserve-3d;
+  transform-origin:left;
+  /* transform: rotateY(40deg); */
+  transition: transform 4s linear;
+  /* transform: translate(80px,80px);
+  transform:skew(-10deg,10deg) ; */
+  
+}
+.box:hover{
+  transform: rotateY(-360deg);
+  /* transform:rotateY(360deg); */
+  /* backface-visibility: hidden; */
+}

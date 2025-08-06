@@ -1,0 +1,32 @@
+.pixels{
+  font-size:96px;
+}
+.inches{
+  font-size: 1in;
+}
+.firstImg{
+  width: 10pt;
+}
+.secondImg{
+  width: 10px;
+}
+.thirdImg{
+  width: 10in;
+}
+.heading{
+  border : 2px solid red;
+  border-right:2px solid rgb(3,234,222);
+  border-top:2px dashed rgb(3, 234, 15);
+  border-width: 5px;
+  border-radius: 15px;
+}
+.parent{
+  width: 500px;
+  height:500px;
+  border:5px solid red;
+}
+.child{
+  width: 75%;
+  height: 75%;
+  border: 5px solid greenyellow;
+}

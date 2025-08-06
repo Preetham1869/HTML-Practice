@@ -1,0 +1,6 @@
+.skew{
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+    transform:skew(89deg);
+}
