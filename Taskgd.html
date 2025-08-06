@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" required>
+    <input type="text" required>
+    <button onclick="func()">Get Table</button>
+    <table border="1">
+        <!-- <tr>
+            <td></td>
+            <td></td>
+        </tr> -->
+    </table>
+    <script>
+
+        function func(){
+            var cnt=1;
+            var rows=document.getElementsByTagName('input')[0].value;
+            var cols=document.getElementsByTagName('input')[1].value;
+            for(let i=0;i<rows;i++){
+                var tableRow=document.createElement('tr');
+                for(let j=0;j<cols;j++){
+                var tableData=  document.createElement('td');
+                tableData.innerText=(`${cnt}`);
+                cnt++;
+                tableRow.appendChild(tableData);
+                }
+                var finalTable=document.getElementsByTagName('table')[0];
+                finalTable.appendChild(tableRow);
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+

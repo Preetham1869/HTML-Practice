@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mastercard Debit Card</title>
+  <style>
+    body {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      width: 400px;
+      height: 250px;
+      border-radius: 20px;
+      background: radial-gradient(circle at top left, #2f3b4c 40%, #1f2937 100%);
+      color: white;
+      padding: 25px 30px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+      font-family: Arial, sans-serif;
+      position: relative;
+    }
+
+    .chip {
+      width: 50px;
+      height: 35px;
+      background: linear-gradient(#ccc, #eee);
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .card-number {
+      font-size: 22px;
+      letter-spacing: 2px;
+      margin: 20px 0;
+    }
+
+    .cardholder {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .logo {
+      position: absolute;
+      bottom: 20px;
+      right: 30px;
+      display: flex;
+      align-items: center;
+    }
+
+    .circle {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
+
+    .red { background: #eb001b; }
+    .yellow { background: #f79e1b; margin-left: -10px; }
+
+    .logo-text {
+      font-size: 14px;
+      margin-left: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="chip"></div>
+    <div class="card-number">5412 7512 3412 3456</div>
+    <div class="cardholder">Lee M. Cardholder</div>
+    <div class="logo">
+      <div class="circle red"></div>
+      <div class="circle yellow"></div>
+      <div class="logo-text">mastercard</div>
+    </div>
+  </div>
+</body>
+</html>
