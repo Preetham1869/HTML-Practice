@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            width: 100%;
+            height: 100svh;
+            /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 700; */
+            font-size: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000000;
+        }
+
+        .box {
+            background-color: rgb(117, 89, 89);
+            width: 500px;
+            height: 500px;
+            gap: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        .box1 {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            /* background: linear-gradient(#fff, #585757, #000, rgb(81, 82, 83)); */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        .box2 {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            /* background: linear-gradient(#fff, #585757, #000, rgb(81, 82, 83)); */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+    <script>
+        // var x=0;
+        //  const f1=setInterval(function(){
+        //     x=x+1;
+        //     console.log(x);
+        // },1000);
+        // setTimeout(()=>{
+        //     clearInterval(f1);
+        //     console.log("stoppppppp");
+        // },8000);
+        var time = 100;
+        const f2 = setInterval(() => {
+            console.log(parseInt(time / 60), (time % 60));
+            document.getElementsByClassName('box1')[0].innerHTML = `${parseInt(time / 60)}`;
+            document.getElementsByClassName('box2')[0].innerHTML = `${(time % 60)}`;
+            time = time - 1;
+        }, 1000);
+        setTimeout(() => {
+            clearInterval(f2);
+            console.log("stoppppppp");
+        }, 110000);
+    </script>
+</body>
+
+</html>
